@@ -1,6 +1,9 @@
 # local-cert-manager
 A vibe-coded utility to easily create LOCAL certificates. These certificates are intended for localhost setups only and are not usable (unless trusted) over the internet. For that, use certbot. This utility is aimed for local domains that dont exist on the internet; or to hijack existing domains for localhost purposes. (In my case local AI)
 
+KEEP IM MIND: This script was generated using AI and speficially crafted prompts. I have tested it and let an AI agent test it, but obviously mistakes can (and are) there. A list of known issues are written below; otherwise USE THIS AT YOUR OWN RISK.
+Feel free to copy or do whatever with this, I dont really care.
+
 
 ## Security model
 
