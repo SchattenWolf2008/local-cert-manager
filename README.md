@@ -86,3 +86,6 @@ This tool is intended for root-controlled personal or development systems. It as
 * `nano` is optional and is only required for the manual hosts-file editor option.
 * The automatic privilege escalation expects the script to be executable. Alternatively, run it explicitly with `sudo bash local-cert-manager.sh`.
 * Systems without systemd or `update-ca-certificates` are not supported.
+
+### What are bundles?
+"Bundles" describe a folder containing a certificate / ca file(s). It may contain multiple domain names in the same certificate file, meaning you dont have to use different files in nginx configuration for multiple domain names. So bundle is just a different name for directory / the certificate file.
